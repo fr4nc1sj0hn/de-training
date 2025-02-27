@@ -1,0 +1,19 @@
+timestamp,level,message,user
+2025-02-24 10:15:30,INFO,User logged in,john_doe
+2025-02-24 10:16:05,WARNING,Failed login attempt,jane_doe
+2025-02-24 10:18:20,ERROR,Database connection failed,admin
+2025-02-24 10:25:00,INFO,Password changed,john_doe
+2025-02-24 10:30:10,ERROR,Application crash,system
+2025-02-24 10:35:45,DEBUG,Configuration updated,dev_user
+2025-02-24 10:40:20,WARNING,High memory usage,system
+2025-02-24 10:45:55,INFO,User logged out,jane_doe
+2025-02-24 10:50:30,ERROR,Server timeout,admin
+2025-02-24 10:55:15,INFO,Backup completed,backup_user
+2025-02-24 10:20:45|INFO|File uploaded|john_doe
+2025-02-24 10:21:10|ERROR|Disk space low|system
+2025-02-24 11:00:05|DEBUG|Service restarted|dev_user
+2025-02-24 11:05:30|INFO|New user registered|new_user
+2025-02-24 10:22:30;DEBUG;Cache cleared;dev_user
+2025-02-24 10:23:15;INFO;Scheduled task executed;cron
+2025-02-24 11:10:50;ERROR;Permission denied;guest
+2025-02-24 11:15:25;WARNING;Session expired;jane_doe

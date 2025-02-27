@@ -1,0 +1,12 @@
+# Ignore virtual environments in all sub-projects
+**/.env/
+**/venv/
+**/env/
+**/.venv/
+*/.env
+**/.venv/
+*/__pycache__/
+
+
+# Ignore JetBrains IDE settings for the parent `Projects/` folder
+.idea/
