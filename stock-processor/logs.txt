@@ -1,0 +1,13 @@
+2025-03-03 11:05:00,251 - ERROR - ❌ Error loading data: [Errno 2] No such file or directory: 'data/MEG2.csv'
+2025-03-03 11:05:00,254 - WARNING - ⚠ No data to clean!
+2025-03-03 11:05:00,254 - WARNING - ⚠ Column 'Close' not found!
+2025-03-03 11:05:00,254 - WARNING - ⚠ Column 'Close' not found!
+2025-03-03 11:05:00,254 - WARNING - ⚠ Column 'Close' not found!
+2025-03-03 11:05:00,254 - WARNING - ⚠ Column 'Close' not found!
+2025-03-03 11:05:22,109 - INFO - ✅ Successfully loaded 6928 records.
+2025-03-03 11:05:22,111 - INFO - ✅ Column headers cleaned.
+2025-03-03 11:05:22,112 - INFO - ✅ Missing values handled using forward-fill.
+2025-03-03 11:05:22,114 - INFO - ✅ Moving averages (30, 50, 100 days) added.
+2025-03-03 11:05:22,115 - INFO - 📊 Statistics for Close: {'min': np.float64(0.162), 'max': np.float64(6.5), 'mean': np.float64(2.3909878752886833)}
+2025-03-03 11:05:28,270 - INFO - 📈 Matplotlib plot displayed for Close.
+2025-03-03 11:05:30,451 - INFO - 📊 Plotly interactive plot displayed for Close.
