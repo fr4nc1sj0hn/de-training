@@ -1,4 +1,0 @@
-backtrader
-pandas
-matplotlib
-numpy
