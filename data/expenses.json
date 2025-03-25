@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "date": "2025-03-04",
+        "category": "Food",
+        "amount": 12.50,
+        "currency": "USD",
+        "description": "Lunch at a restaurant",
+        "payment_method": "Credit Card"
+    },
+    {
+        "id": 2,
+        "date": "2025-03-03",
+        "category": "Transport",
+        "amount": 5.00,
+        "currency": "USD",
+        "description": "Bus fare",
+        "payment_method": "Cash"
+    },
+    {
+        "id": 3,
+        "date": "2025-03-02",
+        "category": "Groceries",
+        "amount": 45.30,
+        "currency": "USD",
+        "description": "Weekly grocery shopping",
+        "payment_method": "Debit Card"
+    },
+    {
+        "id": 4,
+        "date": "2025-03-01",
+        "category": "Entertainment",
+        "amount": 15.99,
+        "currency": "USD",
+        "description": "Movie ticket",
+        "payment_method": "Credit Card"
+    },
+    {
+        "id": 5,
+        "date": "2025-02-28",
+        "category": "Utilities",
+        "amount": 80.75,
+        "currency": "USD",
+        "description": "Electricity bill",
+        "payment_method": "Bank Transfer"
+    }
+]

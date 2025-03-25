@@ -1,0 +1,44 @@
+1. Define the Goal
+Objective: Build a data pipeline that scrapes and analyzes financial data to identify stocks that can generate at least 7% annual returns based on fundamental metrics.
+
+Key Outputs:
+
+A dataset containing stock fundamentals (e.g., P/E ratio, dividend yield, earnings growth, etc.).
+A scoring/ranking system to help decide whether to add to existing holdings or open a new position.
+Visualization/dashboard for insights (optional, but useful).
+2. Data Sources & Scraping Plan
+You’ll need financial data sources that provide fundamental metrics. Some possible sources:
+
+WSJ (Wall Street Journal) – Has earnings, valuation, and dividend data.
+PSE Website – Philippine stock exchange data for local stocks.
+Yahoo Finance API – Free access to global stock data.
+Alpha Vantage or FMP (Financial Modeling Prep) – Alternative APIs if needed.
+✅ Scraping Tasks:
+
+Extract stock prices, market cap, revenue, earnings, dividends, P/E ratio, P/B ratio, ROE, and payout ratio.
+Store the data in PostgreSQL or Oracle ADW (as planned).
+Schedule periodic updates (daily/weekly) using Airflow or Azure Functions.
+3. Data Storage & Processing
+Since you're considering PostgreSQL and Oracle ADW, decide:
+
+Raw Data Storage – Store unprocessed scraped data in a staging table.
+Processed Data – Clean & normalize it in another table for analysis.
+Historical Trends – Keep time-series data for tracking stock trends.
+4. Analysis & Decision-Making Metrics
+You'll need a scoring system to decide whether to invest more or look for new opportunities. Some potential metrics:
+
+Dividend Yield > 4% (Ensures strong income generation)
+Earnings Growth > 7% annually (Sustainable business growth)
+P/E Ratio < Industry Average (Avoid overvalued stocks)
+Payout Ratio < 70% (Ensures dividend sustainability)
+ROE > 10% (Efficient use of shareholder equity)
+💡 You can assign weights to these factors and rank stocks based on a final score.
+
+5. Automation & Dashboard (Optional but Useful)
+Use Streamlit/Flask + Plotly for a dashboard showing stock rankings & insights.
+Automate updates via Airflow or Azure Functions.
+Implement alerts when stocks hit buy/sell criteria.
+Next Steps
+Choose the first data source to scrape.
+Decide on where to store the data (PostgreSQL vs. Oracle ADW).
+Set up a simple data pipeline to extract & store raw financial data.
